@@ -1,0 +1,128 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+body {
+  background: #fff;
+}
+
+.bloc-tabs {
+  display: flex;
+  width: 70%;
+  height: 30px;
+}
+.tabs {
+  border: none;
+
+  padding: 10px;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(148, 145, 145, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 2px;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+.btnGray {
+  border: solid 1px gray;
+  width: 150px;
+}
+.btnKuno {
+  border: solid 1px gray;
+  width: 50px;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100%;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+.btn-group {
+  width: 100%;
+}
+.btnBottom {
+  border: solid 1px gray;
+  width: 10px !important;
+}
+.btnBottom2 {
+  background-color: rgba(28, 28, 133, 0.9);
+  border-right: solid 1px black;
+}
+.btnBottom1 {
+  background-color: #013b93;
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+}
+.justify-left {
+  align-items: left;
+}
+.btnredkCss{
+background-color: #bf1514;
+color: white;
+}
+.btnBlackCss {
+  background-color: black;
+  color: white;
+}
+.btnbluekCss{
+  background-color: #296dd2;
+  color: white;
+}
+.btnGreenCss {
+  background-color: green;
+  color: white;
+}
+
+.btnClicked {
+  background-color: rgb(67, 67, 247);
+  color: white;
+}
+.btnKuno.active {
+  background-color: grey;
+  color: white;
+}

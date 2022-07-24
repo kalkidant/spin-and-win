@@ -1,0 +1,155 @@
+.popup {
+  position: fixed;
+  background-color: rgba(143, 143, 201, 0.4);
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+.key{
+  width: 120%;
+}
+.paid{
+  background:green
+}
+.notpaid{
+  background: red;
+}
+.null{
+  background: lightgrey;
+}
+input {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.simple-keyboard {
+  max-width: 850px;
+}
+
+.verySmallText {
+  font-size: 10px;
+  font-weight: 600;
+}
+.verySmallTextBold {
+  font-size: 11px;
+}
+
+.overflow {
+  height: 500px;
+  overflow-y: auto;
+}
+.title {
+  border-bottom: solid black 2px;
+  font-weight: 400;
+}
+.marginBottom2 {
+  margin-bottom: -10px;
+}
+.marginTop2 {
+  margin-top: -10px;
+}
+
+.popupInner {
+  width: 70%;
+  height: 64vh;
+  background-color: white;
+}
+
+.popupInnerWider {
+  width: 90%;
+  background-color: white;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alphaBtn {
+  background-color: rgba(230, 230, 236, 0.6);
+  width: 30px !important;
+}
+.green{
+  background:green
+}
+.orange{
+  background: orange;
+}
+.yellow{
+  background: yellow;
+}
+.okBtn {
+  background-color: rgb(35, 124, 35);
+  color: white;
+  width: 30px !important;
+}
+.clearBtn {
+  background-color: rgb(233, 51, 51);
+  color: white;
+  width: 50px !important;
+}
+
+/*Paytable specific css*/
+
+.innerRow {
+  background-color: rgba(230, 230, 236, 0.6);
+  margin-right: 1px;
+  /* margin-left: -3px; */
+}
+.closeBtn {
+  margin: 0 auto;
+  width: 200px;
+  color: white;
+}
+.inlineDiv {
+  display: inline !important;
+  width: 140px;
+}
+.elevatedBtn {
+  transition: 0.4s;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+  border: 1px solid #fff;
+}
+.overlayColor {
+  background-color: rgba(0, 0, 0, 0.16);
+}
+h6 {
+  font-size: 1rem;
+}
+
+.popupInnerPayOut {
+  width: 70%;
+  height: 71vh;
+  background-color: white;
+}
+.smallFont {
+  font-size: 0.9rem;
+}
+.popupInnerKuno {
+  width: 80%;
+  height: 100vh;
+  background-color: white;
+}
+.popupInnerKunoSmall {
+  width: 80%;
+  height: 80vh;
+  background-color: white;
+}
+
+.display7 {
+  font-size: 1.3rem;
+}
+.gameTypeSelector {
+  width: 100px;
+}

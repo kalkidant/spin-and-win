@@ -1,0 +1,12 @@
+.cardsMain {
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+.cardsButton {
+  width: 100px !important;
+  height: 100px !important;
+}
+.centerButtons {
+  margin-left: 50%;
+}
