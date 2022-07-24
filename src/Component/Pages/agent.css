@@ -1,0 +1,61 @@
+.agent{
+    line-height: 0
+}
+.page-item.active .page-link {
+    z-index: 3;
+    width: 2%;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.justify-content-center {
+    justify-content: center!important;
+    margin-right: 71%;}
+li.active {
+    background-color: white;
+}
+.page-item:not(:first-child) .page-link {
+    margin-left: -1px;
+    width: 119%;
+}
+.page-item:first-child .page-link {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    width: 117%;
+    /* margin-left: -30%; */
+}
+.content-title {
+    /* font-size: 125%; */
+    font-weight: bold;
+    color: #2647a0;
+    padding: 10px 0 10px 20px;
+    margin-right: 100%;
+}
+.content1{
+    /* font-size: 125%; */
+    font-weight: bold;
+    color: #2647a0;
+    padding: 10px 0 10px 20px;
+    margin-right: 92%;
+}
+.content-title1 {
+    /* font-size: 125%; */
+    font-weight: bold;
+    color: #2647a0;
+    padding: 10px 0 10px 20px;
+    margin-right: 75%;
+}
+
+.addagent{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #5892C2;
+    padding: 2px 6px;
+    border: 1px solid #2D638F;
+    font-size: 12px;
+    border-radius: 2px;
+}
+.forms {
+    margin-left: 2%;
+    margin-bottom: 1%;
+}

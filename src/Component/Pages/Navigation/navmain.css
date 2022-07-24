@@ -1,0 +1,83 @@
+#nav{
+    position: relative;
+    height: 30px;
+    background: url(http://retail.fan11.net/v4.99/images/admin/hd_bg_nav.png) center center repeat-x;
+    width: 99%;
+    margin-left: 0.5%;
+    cursor: pointer;
+  
+}
+#nav1{
+    
+    height: 30px;
+    background: url(http://retail.fan11.net/v4.99/images/admin/hd_bg_nav.png) center center repeat-x;
+    
+    cursor: pointer;
+}
+#hd #nav ul.navigation > li {
+    position: relative;
+    float: right;
+    width: 139px;
+    height: 30px;
+    z-index: 1;
+    color: white;
+}
+li.active a {
+    color: #fff;
+}
+li.active {
+    background-color: #0177C1;
+}
+.navbarr {
+    margin: 2px 0 10px 0;
+    min-height: 25px;
+    color: #06c;
+}
+.aa{
+    text-decoration: none;
+    /* color: #06c; */
+}
+.listt{
+    cursor: pointer;
+    min-width: 80px;
+    list-style: none;
+    height: 23px;
+    margin: 0 4px;
+    padding: 0 8px;
+    float: left;
+    border: 1px solid #0177C1;
+}
+.listt1{
+    cursor: pointer;
+    min-width: 80px;
+    list-style: none;
+    background-color:#0177C1 ;
+    height: 23px;
+    margin: 0 4px;
+    color: white;
+    padding: 0 8px;
+    float: left;
+    border: 1px solid #0177C1;
+}
+#content {
+    padding: 5px 20px;
+}
+.navigation{
+    color: white;
+    float: left;
+}
+
+    a {
+        display: block;
+        position: relative;
+        top: 1px;
+        width: 137px;
+        height: 29px;
+        color: #fff;
+        line-height: 30px;
+        font-size: 115%;
+        text-align: center;
+        border-right: 1px solid white;
+        /* border-left: 1px solid #eee; */
+        white-space: nowrap;
+    }

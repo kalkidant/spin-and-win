@@ -1,0 +1,89 @@
+.alignLeft {
+  text-align: left;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mymodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid #ccc;
+  background: #fff;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+.mymodal1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border: 1px solid #ccc;
+  background: #fff;
+
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+}
+
+.myoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.tableHead {
+  background-color: green;
+}
+.main{
+  margin-top: 4px;
+    min-height: 600px;
+    border-top: 4px solid #1d77bd;
+    width: 99%;
+    margin-left: 0.5%;
+}
+.main1{
+  margin-top: 4px;
+    min-height: 600px;
+   
+    width: 99%;
+    margin-left: 0.5%;
+}
+
+.popup {
+  position: "absolute";
+  top: "50%";
+  left: "50%";
+  transform: "translate(-50%, -50%)";
+  width: 400;
+  background-color: "background.paper";
+  box-shadow: 24;
+  padding: 4;
+  border-radius: "10px";
+}
+.active {
+  background-color: red;
+}
