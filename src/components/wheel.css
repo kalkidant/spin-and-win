@@ -1,0 +1,391 @@
+
+
+
+#relative{
+  position: absolute;
+z-index: 20000000000000000;
+   height: 104%;
+   width: 104%;
+   left: -2%;
+   top: -1.9%;
+  
+    justify-content: center;
+
+transform: rotate(1deg);
+
+}
+
+.relative-pic-frame{
+  position: absolute;
+z-index: 20000000000000000;
+  margin-top: -0.3rem;
+  margin-left: -0.4rem;
+height: 34rem;
+/* width: 60rem; */
+max-width: 34rem;
+/* transform: rotate(1deg); */
+}
+
+
+.canvas-sty-two{
+  position: absolute;
+ 
+z-index: 20000000000000000;
+  
+margin-top: 0.2%;
+margin-left: 0.2%;
+
+
+
+  height: 100%;
+  width: 100%;
+  /* border: 20px solid rgb(20, 20, 20); */
+
+
+}
+/* .canvas-sty-for-two{
+
+
+  position: absolute;
+  margin-top: 11.2%;
+  margin-left: 11.4%;
+ z-index: 6;
+
+  border-radius: 50%;
+  height: 77.5%;
+  width: 77.5%;
+  border:50px solid rgb(20, 20, 20);
+
+
+} */
+.canvas-sty-for-two-white{
+  
+  position: absolute;
+  margin-top: 17.8%;
+  margin-left: 18%;
+ z-index: 8;
+
+  border-radius: 50%;
+  height: 64%;
+  width: 64%;
+  border:47px solid white;
+}
+.royal-sty{
+position: absolute;
+z-index: 200000000000;
+width: 25.5%;
+height: 25.5%;
+
+margin-left: 38%;
+margin-top: 34%;
+}
+
+/* .wheal-size{
+
+width: 800vh;
+} */
+
+#inner-number-birr{
+  position: absolute;
+  z-index: 20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
+  top: 21.6%;
+   bottom: 40%; 
+   right: 37%;
+    left:22.9%;
+
+
+    display: inline-block;
+    width: 54.5%;
+    align-items: center;
+    height: 54.5%;
+    vertical-align: middle;
+    line-height: 200%;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;
+    font-size:800%;
+    
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#383838', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* border: 5px solid rgb(0, 0, 0);  */
+
+
+}
+
+#inner-number{
+  position: absolute;
+  z-index: 20000000000000000;
+  top: 21.6%;
+   bottom: 40%; 
+   right: 37%;
+    left:22.9%;
+
+
+    display: inline-block;
+    width: 54.5%;
+    align-items: center;
+    height: 54.5%;
+    vertical-align: middle;
+    line-height: 200%;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;
+    font-size:800%;
+    
+    
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#383838', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(180deg, rgba(56, 56, 56, 1) 20%, rgba(53, 53, 53, 1) 26%, rgba(36, 36, 36, 1) 43%, rgba(20, 20, 20, 1) 58%, rgba(0, 0, 0, 1) 95%);
+
+    /* border: 5px solid rgb(0, 0, 0);  */
+
+
+    
+}
+.inner-nu{
+  /* margin-top: vw; */
+  font-size: 12rem;
+}
+/* 
+#circle{
+  z-index: 2;
+margin-left:17%;
+position: absolute;
+margin-top: 17%;
+    border-radius: 50%;
+    width: 66.2%;
+    height: 66.2%;
+    background-color: white;
+      /* ff 3.6+ */
+      /* background:-moz-linear-gradient(1deg, rgba(255, 243, 176, 1) 0%, rgba(255, 223, 53, 1) 57%, rgba(255, 215, 0, 1) 73%); 
+
+      /* safari 5.1+,chrome 10+ */
+      /* background:-webkit-linear-gradient(1deg, rgba(255, 243, 176, 1) 0%, rgba(255, 223, 53, 1) 57%, rgba(255, 215, 0, 1) 73%); */
+  
+      /* opera 11.10+ */
+      /* background:-o-linear-gradient(1deg, rgba(255, 243, 176, 1) 0%, rgba(255, 223, 53, 1) 57%, rgba(255, 215, 0, 1) 73%); */
+  
+      /* ie 6-9 */
+      /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFF3B0', endColorstr='#FFD700', GradientType=1 ); */
+  
+      /* ie 10+ */
+      /* background:-ms-linear-gradient(1deg, rgba(255, 243, 176, 1) 0%, rgba(255, 223, 53, 1) 57%, rgba(255, 215, 0, 1) 73%); */
+  
+      /* global 94%+ browsers support
+      background:linear-gradient(1deg, rgba(255, 243, 176, 1) 0%, rgba(255, 223, 53, 1) 57%, rgba(255, 215, 0, 1) 73%); */
+   
+   
+    /* border: 5px #e0bd83 solid;  */
+
+/* } */ 
+
+
+.sc-bdfBwQ {
+/*   
+background-image:url('../assets/canvas.png'); */
+
+display: none;
+
+
+}
+
+.canvas-sty{
+
+  width:6%;
+  height: 6%;
+  position: absolute;
+  margin-left: 48%;
+margin-top:  -3%;
+ z-index: 200;
+}
+
+.sc-gsTCUz image {
+
+z-index: -1;
+}
+.bhdLno image{
+
+   z-index: -1;
+}
+.sc-hKgILt{
+display: none;
+}
+.cIKpxU{
+  display: none;
+}
+.gTLZXx{
+display: none;
+}
+
+
+
+.sc-gsTCUz img{
+z-index: -1;
+
+}
+/* @media screen {
+  .parent-container{
+    position: sticky;
+  z-index: 2000000000000000000000000000000000000000000000000000000000000000000000;
+  width: 28rem;
+
+  height:28rem;
+  }
+
+} */
+
+
+
+.midball-sty{
+
+  position: absolute;
+  z-index: 1;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20%;
+  height: 60%;
+}
+/* 
+
+@media (min-width: 640px) {
+  .parent-container {
+    width: 100%;
+  }
+  @media (min-width: 640px) {
+    .parent-container {
+      max-width: 640px;
+    }
+  }
+  @media (min-width: 768px) {
+    .parent-container {
+      max-width: 768px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .parent-container {
+      max-width: 1024px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .parent-container {
+      max-width: 1280px;
+    }
+  }
+  @media (min-width: 1536px) {
+    .parent-container {
+      max-width: 1536px;
+    }
+  }
+} */
+/* #center-birr-number{
+
+  font-size: 4rem;
+  font-weight:900;
+  display: inline;
+
+  
+} */
+#center-birr-number-pos{
+  margin-top: -1rem;
+}
+#nwwheel{
+  position: relative;
+
+  z-index: 1;
+    width: 33rem;
+    height: 33rem;
+  background-image: url('../assets/roulettewheel.png');
+  background-size: 33rem 33rem;
+ 
+overflow: hidden;
+  /* background-image: url('../../../images/plugins/spinwin/roulettewheelmoney.png'); */
+
+ } 
+/* @media screen and (max-width: 600px)  {
+
+  .parent-container {
+ width: 700px;
+ height:700px ;
+
+display: inline-block;
+   
+  }
+
+} */
+.parent-container {
+position: relative;
+z-index: 1;
+  width: 33rem;
+  height: 33rem;
+
+
+}
+
+.nw-wheel-sty{
+  z-index: 1;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .parent-container #wheel{
+    position: relative;
+    z-index: 1;
+       
+        z-index: 1;
+          width: 30rem;
+          height: 30rem;
+          background-size: 30rem 30rem;
+display: inline-block;
+     
+   } 
+   /* .all-wheel-pos{
+     margin-top:  2rem ;
+     margin-left: 15%;
+   } */
+   .parent-container div{
+   
+     width: 30rem;
+   
+     height:30rem;
+     background-size: 30rem 30rem;
+
+   
+   
+   }
+}
+.timer-lowering{
+  margin-top: 7px;
+  margin-left: -8px;
+}
